@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>pfe</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>registration.jsp</welcome-file>
+    <welcome-file>style.css</welcome-file>
+    <welcome-file>addStudent.jsp</welcome-file>
+    <welcome-file>add.jsp</welcome-file>
+    <welcome-file>lister.jsp</welcome-file>
+    <welcome-file>suppression.jsp</welcome-file>
+    <welcome-file>modification.jsp</welcome-file>
+     <welcome-file>Acceuil_resp.jsp.jsp</welcome-file>
+      <welcome-file>ajout_resp.jsp</welcome-file>
+      <welcome-file>modif_resp.jsp</welcome-file>
+      <welcome-file>rechercher_resp.jsp</welcome-file>
+      <welcome-file>supp_resp.jsp</welcome-file>
+      <welcome-file>consulter_resp.jsp</welcome-file>
+     
+     
+  </welcome-file-list>
+ <servlet>
+  <servlet-name>Inscription</servlet-name>
+  <servlet-class>projet.Inscription </servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Inscription</servlet-name>
+  <url-pattern>/Inscription</url-pattern>
+  </servlet-mapping>
+    
+</web-app>
